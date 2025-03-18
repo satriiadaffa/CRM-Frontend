@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://crmapp-env.eba-tdrcvxdh.ap-southeast-1.elasticbeanstalk.com/api",
+  baseURL: "https://jg1t5bzoyk.execute-api.ap-southeast-1.amazonaws.com/firstDeploy",
   headers: {
     "Content-Type": "application/json",
   },
